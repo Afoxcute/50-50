@@ -37,7 +37,7 @@ export const config = getDefaultConfig({
   ssr: true,
   transports: {
     [bleTestnet.id]: http(
-      'https://rpc.testnet.bnb.blescout.io'
+      'https://rpc-ethena-testnet-0.t.conduit.xyz'
     ),
   },
 });
